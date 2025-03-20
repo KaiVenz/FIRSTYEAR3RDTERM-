@@ -1,0 +1,25 @@
+public class Car {
+	
+	private String model;
+	private int year;
+	
+	public Car() {
+		this.model = "Unkown";
+		this.year = 0;
+	}
+	
+	public Car (String model, int year) {
+		this.model = model;
+		this.year = year;
+	}
+	
+	public Car (Car anotherCar) {
+		this.model = anotherCar.model;
+		this.year = anotherCar.year;
+	}
+	
+	public void displayCarInfo() {
+		System.out.println("Model: " + model + ", Year:" + year);
+	}
+
+}
