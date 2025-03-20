@@ -1,0 +1,16 @@
+public class RunCar {
+
+	public static void main(String[] args) {
+		
+		Car car1 = new Car();
+		car1.displayCarInfo();
+		
+		Car car2 = new Car("Toyota", 2022);
+		car2.displayCarInfo();
+		
+		Car car3 = new Car(car2);
+		car3.displayCarInfo();
+
+	}
+
+}
